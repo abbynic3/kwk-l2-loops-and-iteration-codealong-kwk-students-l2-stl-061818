@@ -2,5 +2,5 @@
 function tailsNeverFails() {
   let tails = 0;
   
-  while
+  while (Math.random() >= 0.5)
 }
