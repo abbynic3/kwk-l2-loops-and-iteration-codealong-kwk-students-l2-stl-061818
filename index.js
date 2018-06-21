@@ -6,4 +6,7 @@ function tailsNeverFails() {
   tails++
 }
 
-return `You go ${tails} tails in a row!`;
+console.log(`You go ${tails} tails in a row!`);
+}
+
+tailsNeverFails();
